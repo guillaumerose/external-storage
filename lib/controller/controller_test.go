@@ -38,7 +38,7 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/kubernetes/scheme"
 	fakev1core "k8s.io/client-go/kubernetes/typed/core/v1/fake"
-	"k8s.io/client-go/pkg/api/v1/ref"
+	ref "k8s.io/client-go/tools/reference"
 	testclient "k8s.io/client-go/testing"
 	fcache "k8s.io/client-go/tools/cache/testing"
 )
